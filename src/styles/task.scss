@@ -1,0 +1,41 @@
+@import "base";
+
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.task-content  {
+  span {
+    background-color: #34d8d7;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #FBFCFC;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-right: 15px;
+  }
+
+  p {
+    color: #bbb;
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+  }
+}
+
+.task-content {
+  display: flex;
+  padding: 10px;
+  color: #bbb;
+  align-items: start;
+}
+

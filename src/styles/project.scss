@@ -1,0 +1,41 @@
+$projectColorOne: #f95ebe;
+$projectColorTwo: #7343be;
+$projectColorThree: #3aa1ef;
+$projectColorFour: #f09e6e;
+$projectColorFive: #31b5b8;
+
+.projects-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project{
+  flex-basis: 20%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+  display: flex;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.project-content{
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  color: #FBFCFC;
+  margin: auto;
+  flex-basis: 100%;
+  text-transform: uppercase;
+}
+
+.project-node {
+  padding: 10px;
+}
+
+.project-node {
+  span {
+    color: #b4b8ca;
+  }
+}

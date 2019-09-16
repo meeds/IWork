@@ -1,0 +1,67 @@
+$backgroundColor: #252a41;
+$textColor: #FBFCFC;
+$pColor: #b6b8ba;
+$fontWeight: 600;
+$searchBorderColor: #3b3f54;
+
+main {
+  background-color: $backgroundColor;
+  color: $textColor;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+aside {
+  flex-basis: 50%;
+  color: $backgroundColor;
+  background-color: $textColor;
+  border: 1px solid $textColor;
+  border-radius: 10px;
+  padding: 60px;
+}
+
+aside {
+  header {
+    p {
+      color: $pColor;
+    }
+  }
+}
+
+article {
+  flex-basis: 50%;
+  padding: 100px;
+}
+
+p{
+  color: $pColor;
+}
+
+h1,h2,h3,h4,p {
+  font-weight: $fontWeight;
+}
+
+h5 {
+  letter-spacing: 0.15rem;
+  font-weight: 200;
+  font-size: 2.2rem;
+}
+
+input {
+  background-color: $backgroundColor;
+  color: $textColor;
+  border: 1px solid $searchBorderColor;
+  border-radius: 10px;
+  min-height: 45px;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.spacer {
+  background-color: transparent;
+}
+
+
+
